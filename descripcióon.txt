@@ -12,7 +12,7 @@ Una página de inicio con información relevante sobre la aplicación y un botó
 Una página secundaria que muestre los datos obtenidos a través de Fetch y permita al usuario interactuar con ellos de alguna manera (por ejemplo, filtrando o clasificando los datos).
 
 Una tercera página que tenga un formulario de comentarios y se utilice el concepto de clases en javascript, por ejemplo: 
-
+ 
 Clase "Comentario":
 
 Propiedades: texto, usuario que lo hizo, fecha

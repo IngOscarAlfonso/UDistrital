@@ -19,7 +19,7 @@ const typeColors = {
   effect_pendulum: "#561D25",
   ritual_pendulum: "#A2FAA3",
   fusion_pendulum: "#795663",
-  syncro_pendulum: "#D2B074",
+  syncro_pendulum: "#D2B074", 
   xyz_pendulum: "#DA627D",
   spell: "#1D8A99",
   trap: "#2F2F2F",
