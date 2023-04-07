@@ -1,0 +1,22 @@
+@mixin botonesPagina($bg-color,$text-color,$border-width,$radius){
+    background-color: $bg-color;
+    color: $text-color;
+    border: $border-width solid $text-color;
+    padding: 20px;
+    border-radius: $radius * 10;
+    font-size: larger;
+    font-weight: bolder;
+
+    &:hover{
+        background-color: darken($bg-color, 15%);
+    }
+}
+
+.boton-principal{
+    @include botonesPagina($color-verde, $color-secundario, 1px, 2px )
+}
+.buscar{
+    @include botonesPagina(rgb(180, 153, 153),  black, 2px,10px );
+    padding: 5px;
+    font-size: small;
+}
