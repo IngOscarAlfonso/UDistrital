@@ -31,6 +31,17 @@ p {
   font-family: "Roboto", "sans-serif";
 }
 
+#texto {
+  color: white;
+}
+
+.pagina-cartas {
+  background-image: url(../images/fondo.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 form {
   width: 200px;
   margin: 20px auto;
@@ -97,13 +108,20 @@ input {
 }
 
 .header {
-  background-color: rgb(189, 149, 21);
+  background-image: url(../images/fondo.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   flex: auto;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
   margin-bottom: 50px;
+  color: #FFF;
+  text-transform: uppercase;
+  font-style: oblique;
+  font-weight: bolder;
 }
 .header h1 {
   justify-content: center;

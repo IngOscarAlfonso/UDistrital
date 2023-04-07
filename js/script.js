@@ -35,6 +35,10 @@ function YBuscar() {
       console.log(datas);
       const carta = document.getElementById("YugiCarta").value;
       console.log(carta);
+      if( carta < 0 || carta >12475){
+        alert("Ingrese un # de carta valido")
+      }
+      else{
       const {
         data: {
           [carta]: {
@@ -82,5 +86,6 @@ function YBuscar() {
       statElement.appendChild(statElementName1);
       statElement.appendChild(statElementAmount1);
       Stats.appendChild(statElement);
-    });
+}});
+  
 }
